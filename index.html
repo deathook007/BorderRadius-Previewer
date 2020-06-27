@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>BRP</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Border Radius Previewer(BRP)</h1>
+        <div id="border_radius__container">
+            <h2>Try to change my border dude :)</h2>
+        </div>
+        <form id="border_radius__input">
+            <input type="number" name="top-left" placeholder="Top Left" />
+            <input type="number" name="top-right" placeholder="Top Right" />
+            <input type="number" name="bottom-right" placeholder="Bottom Right" />
+            <input type="number" name="bottom-left" placeholder="Bottom Left" />
+        </form>
+
+        <div class="border_radius__result">
+            <code>border-radius: <span id="border_radius"></span>;</code>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
