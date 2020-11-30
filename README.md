@@ -1,13 +1,19 @@
-## BorderRadius-Previewer
+## BorderRadius Previewer
 
 Here I have Built an amazing quick usable Border Radius previewer (BRP) for css enthusiastic.
 
-### What I learned(Pro's)
+## ScreenShots Below 👇👇
+
+![screenshot](https://github.com/deathook007/BorderRadius-Previewer/blob/master/Layout.png)
+
+![screenshot](https://github.com/deathook007/BorderRadius-Previewer/blob/master/Properties.png)
+
+## What I learned(Pro's)
 
 - I learned `getComputedStyle()` methos and how it returns an object containing the values of all CSS properties of an element, after applying active stylesheets and resolving any basic computation those values may contain.
 - In above project I used `getComputedStyle()` to get current styling properties of `border-radius` which I was able to target through `getPropertyValue()` method
 
-### What I should've also done (Con's)
+## What I should've also done (Con's)
 
 - Maybe I should have used functions to change border styling instead hard coading values.
 - Also i should have added ability to copy the border radius property on click.
